@@ -43,3 +43,16 @@ Click the Secura icon in the Chrome toolbar to instantly analyze passwords.
 4. Click Load unpacked
 
 5. Select the Secura folder
+
+---
+
+## ☕ Support Secura
+
+Secura is an open-source project built with privacy and security in mind.  
+If you find it useful, consider supporting its development.
+
+Your support helps cover:
+- Chrome Web Store publishing fee
+- Ongoing improvements and features
+
+👉 https://buymeacoffee.com/YOUR_USERNAME
