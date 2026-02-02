@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/PLATFORM-CHROME_EXTENSION-111827?style=for-the-badge" />
   <img src="https://img.shields.io/badge/TECH-VANILLA_JS-1f2937?style=for-the-badge" />
   <img src="https://img.shields.io/badge/UI-NEON_GLASSMORPHISM-0a0a0f?style=for-the-badge&labelColor=ff4d4d" />
-  <a href="buymeacoffee.com/mdhzarif03">
+  <a href="https://buymeacoffee.com/mdhzarif03">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Secura-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000">
   </a>
 </p>
@@ -55,4 +55,5 @@ Your support helps cover:
 - Ongoing improvements and features
 - 
 <a href="https://www.buymeacoffee.com/mdhzarif03" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 
