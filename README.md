@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/PLATFORM-CHROME_EXTENSION-111827?style=for-the-badge" />
   <img src="https://img.shields.io/badge/TECH-VANILLA_JS-1f2937?style=for-the-badge" />
   <img src="https://img.shields.io/badge/UI-NEON_GLASSMORPHISM-0a0a0f?style=for-the-badge&labelColor=ff4d4d" />
-  <a href="https://buymeacoffee.com/YOUR_USERNAME">
+  <a href="buymeacoffee.com/mdhzarif03">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Secura-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000">
   </a>
 </p>
@@ -47,13 +47,12 @@ Click the Secura icon in the Chrome toolbar to instantly analyze passwords.
 ---
 
 ## ☕ Support Secura
-
 Secura is an open-source project built with privacy and security in mind.  
 If you find it useful, consider supporting its development.
 
 Your support helps cover:
 - Chrome Web Store publishing fee
 - Ongoing improvements and features
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mdhzarif03" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+- 
+<a href="https://www.buymeacoffee.com/mdhzarif03" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
