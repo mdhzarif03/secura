@@ -6,6 +6,9 @@
   <img src="https://img.shields.io/badge/PLATFORM-CHROME_EXTENSION-111827?style=for-the-badge" />
   <img src="https://img.shields.io/badge/TECH-VANILLA_JS-1f2937?style=for-the-badge" />
   <img src="https://img.shields.io/badge/UI-NEON_GLASSMORPHISM-0a0a0f?style=for-the-badge&labelColor=ff4d4d" />
+  <a href="https://buymeacoffee.com/YOUR_USERNAME">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Secura-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000">
+  </a>
 </p>
 
 **Secura** is a modern, entropy-based password strength analyzer built as a Chrome Extension.  
@@ -38,4 +41,5 @@ Click the Secura icon in the Chrome toolbar to instantly analyze passwords.
 2. Open Chrome and go to: [Chrome Extensions](chrome://extensions)
 3. Enable Developer Mode
 4. Click Load unpacked
+
 5. Select the Secura folder
