@@ -1,0 +1,147 @@
+:root {
+  --bg: #0a0a0f;
+  --card: rgba(19, 19, 26, 0.85);
+  --text: #ffffff;
+  --muted: #9a9aa3;
+  --accent: #ff4d4d;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top, #1a1a2e 0%, #000 70%),
+    linear-gradient(120deg, #000, #050505);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 480px;
+  padding: 36px;
+  background: var(--card);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow:
+    0 0 60px rgba(0,0,0,.7),
+    0 0 80px rgba(255,255,255,0.02);
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 18px;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,.05), transparent);
+  pointer-events: none;
+}
+
+h1 {
+  color: var(--text);
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 26px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  background: rgba(0,0,0,.55);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 15px;
+  outline: none;
+  transition: border .3s, box-shadow .3s;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  background: rgba(0,0,0,.55);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 15px;
+  outline: none;
+  transition: border .3s, box-shadow .3s;
+}
+
+input:hover {
+  border-color: #ffffff; /* white on hover */
+}
+
+input:focus {
+  border-color: #ffffff; /* white on focus */
+  box-shadow: none; /* no glow on click/focus */
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.actions span {
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background .2s, color .2s;
+}
+
+.actions span:hover {
+  background: rgba(255,255,255,.05);
+  color: var(--text);
+}
+
+.strength-text {
+  margin-top: 24px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 13px;
+  color: var(--accent);
+  text-shadow: 0 0 16px var(--accent);
+}
+
+.bar {
+  margin-top: 12px;
+  height: 18px;
+  background: rgba(0,0,0,.7);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  width: 0%;
+  background: var(--accent);
+  box-shadow: 0 0 25px var(--accent);
+  transition:
+    width .4s cubic-bezier(.4,0,.2,1),
+    background .4s,
+    box-shadow .4s;
+}
+
+.info {
+  margin-top: 18px;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.7;
+}

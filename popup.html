@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secura-Password Security</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SECURA</h1>
+        <div class="subtitle">Entropy-based realtime analysis</div>
+        <input id="password" type="password" placeholder="Type or generate password">
+        <div class="actions">
+            <span onclick="toggle()">👁 Show</span>
+            <span onclick="generate()">🎛 Generate</span>
+        </div>
+        <div class="strength-text" id="strengthText">ENTROPY: 0 BITS</div>
+        <div class="bar">
+            <div class="fill" id="bar"></div>
+        </div>
+        <div class="info" id="info">
+            Entropy measures how unpredictable a password is.
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
