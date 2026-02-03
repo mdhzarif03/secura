@@ -11,11 +11,9 @@
   font-family: "Segoe UI", system-ui, sans-serif;
 }
 
-body {
+html, body {
   margin: 0;
-  background:
-    radial-gradient(circle at top, #1a1a2e 0%, #000 70%),
-    linear-gradient(120deg, #000, #050505);
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,9 +23,9 @@ body {
 .container {
   width: 480px;
   padding: 36px;
-  background: var(--card);
+  background: rgba(19,19,26,0.85);
   backdrop-filter: blur(12px);
-  border-radius: 18px;
+  border-radius: 0; /* removed rounded corners */
   border: 1px solid rgba(255,255,255,0.05);
   box-shadow:
     0 0 60px rgba(0,0,0,.7),
@@ -35,11 +33,12 @@ body {
   position: relative;
 }
 
+
 .container::before {
   content: "";
   position: absolute;
   inset: -1px;
-  border-radius: 18px;
+  border-radius: 0; /* removed rounded corners */
   background: linear-gradient(120deg, transparent, rgba(255,255,255,.05), transparent);
   pointer-events: none;
 }
